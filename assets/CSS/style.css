@@ -15,13 +15,34 @@ a {
 }
 
 .userCard {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
+  min-width: 250px;
   margin: 50px auto;
   border-radius: 30px;
-  box-shadow: 0px 0px 10px gray;
+  box-shadow: 0px 0px 10px grey;
+  overflow: hidden;
+  text-align: center;
 
 }
 .bg {
-  background-image: url(https://images.pexels.com/photos/3222255/pexels-photo-3222255.jpeg);
+  background-image: url("https://images.pexels.com/photos/3222255/pexels-photo-3222255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 150px;
+  color: white;
+  padding: 25px;
+  text-align: right;
+}
+
+.userImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -75px;
+  border: 2px solid white;
+  
+
 }
 
