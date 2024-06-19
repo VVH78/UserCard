@@ -73,3 +73,17 @@ a {
     margin: 1.2em 0; 
   }
 
+  .userSocialLink {
+    color: white;
+    background-color: grey;
+    border-radius: 50%;
+    padding-top: 10px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+  }
+
+  .userSocialLink + .userSocialLink {
+    margin-left: 35px;
+  }
+
