@@ -3,10 +3,15 @@
   margin: 0;
   padding: 0;
 }
+html {
+  --user-photo-width: 150px;
+  /* css-змінні */
+}
 
 body {
   font-family: sans-serif;
   line-height: 1.2;
+
 }
 
 a {
@@ -34,15 +39,13 @@ a {
 }
 
 .userImg {
-  width: 150px;
-  height: 150px;
+  width: var(--user-photo-width);
+  height: var(--user-photo-width);
   object-fit: cover;
   object-position: top;
   border-radius: 50%;
   display: inline-block;
-  margin-top: -75px;
+  margin-top: calc((-1) * var(--user-photo-width) / 2);
   border: 2px solid white;
-  
-
-}
+  }
 
