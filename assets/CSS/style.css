@@ -38,6 +38,10 @@ a {
   text-align: right;
 }
 
+.content-wrapper {
+  padding: 0 1em 1em;
+}
+
 .userImg {
   width: var(--user-photo-width);
   height: var(--user-photo-width);
@@ -47,5 +51,25 @@ a {
   display: inline-block;
   margin-top: calc((-1) * var(--user-photo-width) / 2);
   border: 2px solid white;
+  }
+
+  .userName {
+    font-size: 1.5rem;
+    margin: 0.4em;
+  }
+
+  .userGeoposition {
+    font-size: 1rem;
+    margin: 0.5em 0;
+  }
+
+  .job {
+    font-size: 1.2rem;
+    margin: 0.4em 0;
+  }
+
+  .experience {
+    font-size: 1rem;
+    margin: 1.2em 0; 
   }
 
